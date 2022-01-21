@@ -120,9 +120,21 @@
 
 
 }
+@media only screen and (max-width:383px) {
+  .hero__block{
+    padding-left: 20px;
+  }
+
+}
 @media only screen and (max-width:378px) {
   .hero__block{
     padding-left: 10px;
+  }
+
+}
+@media only screen and (max-width:366px) {
+  .hero__block{
+    padding-left: 0px;
   }
 
 }
