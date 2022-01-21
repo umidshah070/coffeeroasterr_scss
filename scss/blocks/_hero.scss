@@ -71,6 +71,7 @@
 
 @media only screen and (max-width:780px){
   .hero__block{
+
     background-image: url(../image/tablet.png);
     padding-top: 118px;
     padding-left: 58px;
@@ -87,8 +88,7 @@
 
 @media only screen and (max-width:650px){
   .hero__block{
-    height: 500px;
-    padding: 40px 42px 87px;
+    padding: 40px 12px 0px;
   }
 
   .hero__title,.hero__text{
@@ -97,8 +97,9 @@
 }
 @media only screen and (max-width:500px){
   .hero__block{
-
+    max-width: 395px;
     background-image: url(../image/mobil.png);
+    background-size: 100% 100%;
     padding-top: 100px;
     padding-left: 59px;
   }
@@ -111,7 +112,7 @@
   }
 }
 
-@media only screen and (max-width:405px) {
+@media only screen and (max-width:425px) {
   .hero__block{
     padding-top: 101px;
     padding-left: 24px;
@@ -125,6 +126,16 @@
   }
 
 }
+@media only screen and (max-width:358px){
+  .hero__block{
+    padding: 0;
+
+  }
+  .hero__content{
+    max-width: 250px;
+    margin: 0 auto;
+  }
+}
 
 @media only screen and (max-width:350px) {
   .hero__block{
@@ -135,4 +146,15 @@
     width: 250px;
   }
 
+}
+@media only screen and (max-width:321px){
+  .hero__block{
+    padding:50px 0 0 0;
+
+  }
+  .hero__content{
+    max-width: 250px;
+    width: 100%;
+    margin: 0 auto;
+  }
 }
